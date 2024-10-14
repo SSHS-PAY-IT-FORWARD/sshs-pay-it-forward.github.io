@@ -25,7 +25,12 @@ export default function App() {
   return (
     <div id="wrap" className="font-pretendard">
       <Navigator />
-      <a href="https://docs.google.com/presentation/d/1amXERB8fMDcsZ2ponc--ABPw0kRGzy6gLMHjFmK6mSo/edit?usp=sharing" target="_blank"><FixedButton>컨퍼런스 브로셔 보러 가기 →</FixedButton></a>
+      <a
+        href="https://docs.google.com/presentation/d/1LGjZlYGCVTd0bqdYB4TbUzEkby6xC6G7r4IVreS1LCI/edit?pli=1#slide=id.g27b0136356f_0_54"
+        target="_blank"
+      >
+        <FixedButton>컨퍼런스 브로셔 보러 가기 →</FixedButton>
+      </a>
       <div id="container">
         <div
           id="main"
@@ -34,7 +39,7 @@ export default function App() {
           <div className="lg:hidden absolute top-0 left-0 bg-black bg-opacity-20 w-full h-full"></div>
           <div className="z-10 font-proxima font-black text-8xl sm:text-5xl text-white lg:flex-1">
             <h1>
-              1<sup>st</sup> SSHS
+              2<sup>nd</sup> SSHS
               <br />
               PAY IT FORWARD
               <br />
@@ -43,9 +48,9 @@ export default function App() {
           </div>
           <div className="z-10 font-proxima font-black text-5xl sm:text-2xl text-white sm:mt-6">
             <h2 className="leading-tight">
-              2023 OCTOBER 28 (SAT)
+              2024 OCTOBER 19 (SAT)
               <br />
-              10:00 - 18:00{" "}
+              10:00 - 19:00{" "}
               <span className="font-pretendard">@서울과학고등학교</span>
             </h2>
           </div>
@@ -110,11 +115,17 @@ export default function App() {
                 {sessionInfo[selectedIndex].panels.map(
                   (panel: { name: string; id: number }, index: number) => {
                     return (
-                      <li key={index} className="cursor-pointer leading-8 w-64" onClick={() => {
-                        setNowSelectedSpeakerId(panel.id);
-                      }}>
+                      <li
+                        key={index}
+                        className="cursor-pointer leading-8 w-64"
+                        onClick={() => {
+                          setNowSelectedSpeakerId(panel.id);
+                        }}
+                      >
                         <div>
-                          <span className="border-b-2 border-b-white hover:border-b-black transition ease-out pb-1">{panel.name}</span>
+                          <span className="border-b-2 border-b-white hover:border-b-black transition ease-out pb-1">
+                            {panel.name}
+                          </span>
                         </div>
                       </li>
                     );
@@ -139,7 +150,7 @@ export default function App() {
         >
           <div className="">
             <p className="leading-7 font-medium">
-              PAY IT FORWARD 컨퍼런스의 라이브 스트리밍은 행사 당일(2023.10.28.)
+              PAY IT FORWARD 컨퍼런스의 라이브 스트리밍은 행사 당일(2024.10.19.)
               Zoom을 통해 진행합니다.
               <br />
               Zoom 회의실 입장 링크는 참가 신청자 대상으로 추후 이메일을 통해
@@ -185,7 +196,16 @@ export default function App() {
       </div>
       <footer>
         <div className="text-slate-400 text-center pt-8 pb-16">
-          <p className="text-xs">Designed & Developed by <a href="https://github.com/mori8" target="_blank" className="underline">Suyeon Nam (@mori8)</a></p>
+          <p className="text-xs">
+            Designed & Developed by{" "}
+            <a
+              href="https://github.com/mori8"
+              target="_blank"
+              className="underline"
+            >
+              Suyeon Nam (@mori8)
+            </a>
+          </p>
         </div>
       </footer>
     </div>
