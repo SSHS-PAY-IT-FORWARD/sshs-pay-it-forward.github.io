@@ -1,5 +1,5 @@
 {
-  "name": "payitforwardconf-2023.github.io",
+  "name": "sshs-pay-it-forward.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,7 +25,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://payitforwardconf-2023.github.io/",
+  "homepage": "http://sshs-pay-it-forward.github.io/",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",
-    "gh-pages": "^6.0.0",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3"
   }
