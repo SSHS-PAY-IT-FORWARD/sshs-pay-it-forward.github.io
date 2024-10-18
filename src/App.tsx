@@ -117,7 +117,7 @@ export default function App() {
                     return (
                       <li
                         key={index}
-                        className="cursor-pointer leading-8 w-64"
+                        className="cursor-pointer leading-8 w-128"
                         onClick={() => {
                           setNowSelectedSpeakerId(panel.id);
                         }}
