@@ -39,7 +39,7 @@ export default function App() {
           <div className="lg:hidden absolute top-0 left-0 bg-black bg-opacity-20 w-full h-full"></div>
           <div className="z-10 font-proxima font-black text-8xl sm:text-5xl text-white lg:flex-1">
             <h1>
-              2<sup>nd</sup> SSHS
+              3<sup>rd</sup> SSHS
               <br />
               PAY IT FORWARD
               <br />
@@ -48,7 +48,7 @@ export default function App() {
           </div>
           <div className="z-10 font-proxima font-black text-5xl sm:text-2xl text-white sm:mt-6">
             <h2 className="leading-tight">
-              2024 OCTOBER 19 (SAT)
+              2025 OCTOBER 18 (SAT)
               <br />
               10:00 - 19:00{" "}
               <span className="font-pretendard">@서울과학고등학교</span>
@@ -150,7 +150,7 @@ export default function App() {
         >
           <div className="">
             <p className="leading-7 font-medium">
-              PAY IT FORWARD 컨퍼런스의 라이브 스트리밍은 행사 당일(2024.10.19.)
+              PAY IT FORWARD 컨퍼런스의 라이브 스트리밍은 행사 당일(2025.10.18.)
               Zoom을 통해 진행합니다.
               <br />
               Zoom 회의실 입장 링크는 참가 신청자 대상으로 추후 이메일을 통해
