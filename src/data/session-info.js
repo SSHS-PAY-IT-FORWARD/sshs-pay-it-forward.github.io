@@ -22,7 +22,7 @@ export default [
     ],
   },
   {
-    id: 3,
+    id: 2,
     time: "11:30 - 11:57",
     title: "Music and Math., Science",
     description:
@@ -33,7 +33,7 @@ export default [
     ],
   },
   {
-    id: 4,
+    id: 3,
     time: "13:00 - 14:30",
     title: "Robotics & Physical AI",
     description:
@@ -41,21 +41,21 @@ export default [
     moderator: { name: "류형규 CPO (2기, RLWRLD)", id: 3 },
     panels: [
       { name: "김용재 대표 (2기, 위로보틱스)", id: 4 },
-      { name: "김영재 상무 (4기, LG전자)", id: 14 },
-      { name: "이승준 교수 (5기, 부산대학교)", id: 5 },
-      { name: "류창완 Engineer (9기, Figure AI)", id: 6 },
-      { name: "최근준 Engineer (20기, 레인보우로보틱스)", id: 7 },
+      { name: "김영재 상무 (4기, LG전자)", id: 5 },
+      { name: "이승준 교수 (5기, 부산대학교)", id: 6 },
+      { name: "류창완 Engineer (9기, Figure AI)", id: 7 },
+      { name: "최근준 Engineer (20기, 레인보우로보틱스)", id: 8 },
     ],
   },
   {
-    id: 5,
+    id: 4,
     time: "14:45 - 16:15",
     title: "후배의 고민에 답하다",
     description:
       "과학자의 꿈을 꾸고 입학한 학교에서 우리는 수많은 천재를 만나면서 좌절을 겪었다. 솔직히 그들과 경쟁할 세상이 두렵다. 게다가, AI 등 첨단 기술의 발전은 우리의 설자리를 위협하는 듯하고, 과학/기술을 잘 모르는 사람들이 의사 결정을 하거나 더 대접받는 것처럼 보인다.  과연 우리는 이 세상을 어떻게 살아가야 하는가? 우리의 입장에서, 우리를 이해하고, 우리를 위한 고민을 온전히 이해한, 진솔한 답변을 기대한다.",
-    moderator: { name: "최여진 대표 (27기, new startup)", id: 8 },
+    moderator: { name: "최여진 대표 (27기, new startup)", id: 9 },
     panels: [
-      { name: "류석영 교수 (1기, KAIST)", id: 9 },
+      { name: "류석영 교수 (1기, KAIST)", id: 20 },
       // TBD
       // { name: "이승준 교수 (5기, 부산대학교)", id: 5 },
       // { name: "류창완 Engineer (9기, Figure AI)", id: 6 },
@@ -63,7 +63,7 @@ export default [
     ],
   },
   {
-    id: 6,
+    id: 5,
     time: "16:30 - 18:00",
     title: "Quantum Technology",
     description:
@@ -71,8 +71,8 @@ export default [
     moderator: { name: "김성혁 상무 (1기, LG전자)", id: 10 },
     panels: [
       { name: "김성혁 상무 (1기, LG전자)", id: 10 },
-      { name: "박희수 박사 (1기, KRISS)", id: 11 },
-      { name: "민범기 교수 (1기, KAIST)", id: 12 },
+      { name: "민범기 교수 (1기, KAIST)", id: 11 },
+      { name: "박희수 박사 (1기, KRISS)", id: 12 },
       { name: "이승우 교수 (4기, 포항공대)", id: 13 },
     ],
   },
