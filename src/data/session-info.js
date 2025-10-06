@@ -5,7 +5,6 @@ export default [
     title: "AI: New Game Changer",
     description:
       "인터넷의 시대, 그리고 모바일과 스마트폰 시대는, 기존 프레임을 깬 파괴적 혁신을 주도하는 사람과 기업이 어떻게 세상을 주도해 나갔는지 경험해 왔다. 이제, 본격 AI의 시대이다. 이 시대에 누가 서비스 혁신을 주도할 것인가?",
-    moderator: { name: "", id: 999 },
     panels: [
       { name: "성낙호 기술총괄 (6기, 네이버 클라우드)", id: 0 },
     ],
@@ -13,10 +12,9 @@ export default [
   {
     id: 1,
     time: "11:00 - 11:27",
-    title: "AI & the Future of Brain Health: Creating a Digital Twin of the Brain",
+    title: `AI & the Future of Brain Health:\nCreating a Digital Twin of the Brain`,
     description:
       "뇌 기능의 정상화는, 뇌의 움직임을 근본적으로 이해하는 것에서 시작한다. 뇌의 디지털 트윈은 뇌를 보다 잘 이해할 수 있게 해준다. 이제, 인간의 뇌 질환을 정복할 때이다.",
-    moderator: { name: "", id: 999 },
     panels: [
       { name: "이진형 교수 (4기, Stanford)", id: 1 },
     ],
@@ -27,7 +25,6 @@ export default [
     title: "Music and Math., Science",
     description:
       "음악은, 과학/수학과 결코 멀리 떨어져 있지 않다. 사실 음악은 과학과 수학으로부터 많은 것들이 이해될 수가 있고, 우리가 음악을 좋아하는 이유가 여기에 있을 수도 있지 않을까?",
-    moderator: { name: "", id: 999 },
     panels: [
       { name: "백윤학 교수/지휘자 (3기, 영남대학교)", id: 2 },
     ],
@@ -55,11 +52,26 @@ export default [
       "과학자의 꿈을 꾸고 입학한 학교에서 우리는 수많은 천재를 만나면서 좌절을 겪었다. 솔직히 그들과 경쟁할 세상이 두렵다. 게다가, AI 등 첨단 기술의 발전은 우리의 설자리를 위협하는 듯하고, 과학/기술을 잘 모르는 사람들이 의사 결정을 하거나 더 대접받는 것처럼 보인다.  과연 우리는 이 세상을 어떻게 살아가야 하는가? 우리의 입장에서, 우리를 이해하고, 우리를 위한 고민을 온전히 이해한, 진솔한 답변을 기대한다.",
     moderator: { name: "최여진 대표 (27기, new startup)", id: 9 },
     panels: [
-      { name: "류석영 교수 (1기, KAIST)", id: 20 },
-      // TBD
-      // { name: "이승준 교수 (5기, 부산대학교)", id: 5 },
-      // { name: "류창완 Engineer (9기, Figure AI)", id: 6 },
-      // { name: "최근준 Engineer (20기, 레인보우로보틱스)", id: 7 },
+      { name: "1기 류석영 Sukyoung Ryu", id: 20 },
+      { name: "1기 박문수 Moonsoo Park", id: 21 },
+      { name: "1기 박수경 Sukyung Park", id: 22 },
+      { name: "2기 류중희 Jung-hee Ryu", id: 23 },
+      { name: "2기 류형규 Hyungkyu Ryu", id: 3 },
+      { name: "2기 박상민 Sangmin Park", id: 25 },
+      { name: "2기 박창수 Chang-su Park", id: 25 },
+      { name: "3기 김홍석 Hong-Seok Kim", id: 26 },
+      { name: "3기 남현 NAM Hyun", id: 29 },
+      { name: "3기 배병일 Byoung-Il Bae", id: 28 },
+      { name: "4기 정은진 EJ Jung", id: 30 },
+      { name: "6기 신진우 Jinwoo Shin", id: 27 },
+      { name: "8기 김수진 Sujin Kim", id: 31 },
+      { name: "8기 정대진 Daejin Joung", id: 32 },
+      { name: "9기 서민교 Min-Kyo Seo", id: 34 },
+      { name: "10기 김휘영 Hwiyoung Kim", id: 33 },
+      { name: "12기 박정환 Junghwan Park", id: 36 },
+      { name: "13기 백형렬 Hyungryul Harry Baik", id: 37 },
+      { name: "18기 박보현 Bohyun Park", id: 38 },
+      { name: "26기 김준휘 Joonhwi Kim", id: 35 }
     ],
   },
   {

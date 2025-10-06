@@ -90,28 +90,38 @@ export default function App() {
             <p className="text-xl sm:text-lg mt-8 whitespace-pre-wrap leading-9 sm:leading-7 font-bold">
               {sessionInfo[selectedIndex].description}
             </p>
-            <div className="moderator-container flex flex-row sm:flex-col mt-14">
-              <div className="w-40 font-bold font-proxima sm:mb-2">
-                MODERATOR
-              </div>
-              <div>
-                <ul className="font-medium">
-                  <li
-                    className="cursor-pointer border-b-2 border-b-white hover:border-b-black transition ease-out inline-block"
-                    onClick={() => {
-                      setNowSelectedSpeakerId(
-                        sessionInfo[selectedIndex].moderator.id
-                      );
-                    }}
-                  >
-                    {sessionInfo[selectedIndex].moderator.name}
-                  </li>
-                </ul>
-              </div>
-            </div>
+              {(() => {
+                const moderator = sessionInfo[selectedIndex]?.moderator;
+                if (
+                  moderator &&
+                  typeof moderator.name === "string" &&
+                  typeof moderator.id === "number"
+                ) {
+                  return (
+                    <div className="moderator-container flex flex-row sm:flex-col mt-14">
+                      <div className="w-40 font-bold font-proxima sm:mb-2">
+                        MODERATOR
+                      </div>
+                      <div>
+                        <ul className="font-medium">
+                          <li
+                            className="cursor-pointer border-b-2 border-b-white hover:border-b-black transition ease-out inline-block"
+                            onClick={() => {
+                              setNowSelectedSpeakerId(moderator.id);
+                            }}
+                          >
+                            {moderator.name}
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  );
+                }
+                return null;
+              })()}
             <div className="panels-container flex flex-row sm:flex-col mt-6">
               <div className="w-40 font-bold font-proxima sm:mb-2">PANELS</div>
-              <ul className="columns-2 sm:columns-1 font-medium h-[96px] sm:h-fit">
+              <ul className="columns-2 sm:columns-1 font-medium h-[160px] sm:h-fit">
                 {sessionInfo[selectedIndex].panels.map(
                   (panel: { name: string; id: number }, index: number) => {
                     return (

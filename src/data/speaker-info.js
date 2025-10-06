@@ -207,8 +207,207 @@ DPhil in Physics, Oxford
 M.S. and B.S. in Physics, KAIST
   `,
     bio: `
-    양자정보 이론 물리학자. 양자물리학의 근본적인 문제에 더 관심이 많지만, 최근에는 양자컴퓨팅 및 양자통신 관련 프로젝트를 주로 수행하고 있다. 옥스퍼드대학교, 다트머스대학교, 서울대학교, 고등과학원(KIAS), 한국과학기술연구원(KIST) 등에서 연구했으며, 현재 POSTECH 물리학과 부교수로 재직 중이다. 2022년부터 시카고대학, 캐나다 양자컴퓨팅 기업 Xanadu 등이 참여하는 양자오류정정 국제공동연구실을 이끌고 있다. 한국광학회 양자광학및양자정보 분과위원장(2025~), 한국물리학회 IYQ 양자특별위원회 실무이사(2025~) 등으로도 활동하고 있으며, 2022년 양자기술 분야 과학기술정보통신부 장관 표창을 수상했다.
-​​​​​​​​​​​​​​​
+    양자정보 이론 물리학자. 양자물리학의 근본적인 문제에 더 관심이 많지만, 최근에는 양자컴퓨팅 및 양자통신 관련 프로젝트를 주로 수행하고 있다. 옥스퍼드대학교, 다트머스대학교, 서울대학교, 고등과학원(KIAS), 한국과학기술연구원(KIST) 등에서 연구했으며, 현재 POSTECH 물리학과 부교수로 재직 중이다. 2022년부터 시카고대학, 캐나다 양자컴퓨팅 기업 Xanadu 등이 참여하는 양자오류정정 국제공동연구실을 이끌고 있다. 한국광학회 양자광학및양자정보 분과위원장(2025~), 한국물리학회 IYQ 양자특별위원회 실무이사(2025~) 등으로도 활동하고 있으며, 2022년 양자기술 분야 과학기술정보통신부 장관 표창을 수상했다.​​​​​​​​​​​​​`,
+  },
+  {
+    id: 20,
+    name: `류석영`,
+    about: `
+            Prof. and Head of School of Computing, KAIST
+            Member of Tech. Staff, Sun Microsystems Lab.
+            Research Associate, Harvard University
+            Ph.D., MS, BS in Computer Science, KAIST
+            `,
+    bio: `​​​​​​​​​​​​​`,
+  },
+  {
+    id: 21,
+    name: `박문수`,
+    about: `
+  연구위원, 셀선생개발센터, LG Energy Solution
+  Ph.D, MS, BS in Chemistry, KAIST
   `,
+    bio: ``,
+  },
+  {
+    id: 22,
+    name: `박수경`,
+    about: `
+  Prof., Dept. of Mechanical Eng., KAIST
+  대통령비서실 과학기술보좌관
+  Senior Research Fellow, Harvard Medical School
+  Ph.D. in Mechanical Eng., Univ. of Michigan
+  MS and BS in Mechanical Engineering, KAIST
+  `,
+    bio: ``,
+  },
+  {
+    id: 23,
+    name: `류중희`,
+    about: `
+  Founder & CEO, RLWRLD
+  Partner & CEO, FuturePlay
+  Strategic Planner, Intel Corporation
+  Founder & CEO, Olaworks, Inc.
+  Ph.D., MS, BS in Electrical Engineering, KAIST
+  `,
+    bio: ``,
+  },
+  {
+    id: 24,
+    name: `박상민`,
+    about: `
+  Prof., Dept. of Biomedical Sciences, SNU
+  Doctor, 서울대학교 병원 / 대통령 주치의
+  Ph.D. in, Family Medicine, SNU
+  MS in Graduate School of Public Health, SNU
+  MD in Department of Medicine, SNU
+  `,
+    bio: ``,
+  },
+  {
+    id: 25,
+    name: `박창수`,
+    about: `
+  Director, KSLV-III Program, KARI (Korea Aerospace Research Institute)
+  Principal  Researcher, KARI
+  Ph.D. in Aerospace Engineering, KAIST
+  MS and BS in Aerospace Engineering, KAIST
+  `,
+    bio: ``,
+  },
+  {
+    id: 26,
+    name: `김홍석`,
+    about: `
+  Head of Software Architect, Rebellions
+  Software Engineer, Google Korea
+  Ph.D. in Computer Science, UIUC
+  BS in Computer Engineering, SNU
+  `,
+    bio: ``,
+  },
+  {
+    id: 27,
+    name: `신진우`,
+    about: `
+  Prof., Graduate School of AI, KAIST
+  국가AI전략위원회 기술혁신인프라분과장
+  Researcher, IBM T. J. Watson Research 
+  Ph.D. in Math, MIT
+  BS in Computer Engineering & Math, SNU
+  `,
+    bio: ``,
+  },
+  {
+    id: 28,
+    name: `배병일`,
+    about: `
+  Assistant Prof., School of Medicine, Univ. of Connecticut
+  Ph.D. in School of Medicine, Johns Hopkins
+  BS in Biological Science, SNU
+  `,
+    bio: ``,
+  },
+  {
+    id: 29,
+    name: `남현`,
+    about: `
+  파트너 변호사, 법무법인 세움
+  부장판사, 전주지방법원
+  BS in Industrial Chemistry, SNU
+  `,
+    bio: ``,
+  },
+  {
+    id: 30,
+    name: `정은진`,
+    about: `
+  Prof., Dept. of CS, Univ. of San Francisco
+  Software Architect, Oasis Lab.
+  Ph.D. and MS in CS, UT Austin
+  BS in Computer Science, SNU
+  `,
+    bio: ``,
+  },
+  {
+    id: 31,
+    name: `김수진`,
+    about: `
+  Clinical Assistant Professor, Korea Univ. Medicine
+  Director, Kakao Healthcare
+  Chief Medical Officer, AIMMED
+  MS, MD in Medicine, SNU
+  `,
+    bio: ``,
+  },
+  {
+    id: 32,
+    name: `정대진`,
+    about: `
+  본부장, 미래에셋자산운용
+  Ph.D. in Economics, Hankuk Univ. of Foreign Studies
+  MS in Mgmt. Eng., School of Business, KAIST
+  BS in Applied Math., KAIST
+  `,
+    bio: ``,
+  },
+  {
+    id: 33,
+    name: `김휘영`,
+    about: `
+  Prof., Translational AI Lab. College of Medicine, Yonsei University
+  Ph.D. Medical Physics, College of Medicine, SNU
+  BS in Computer Science, KAIST
+  `,
+    bio: ``,
+  },
+  {
+    id: 34,
+    name: `서민교`,
+    about: `
+  Prof., Dept. of Physics, KAIST
+  Postdoc fellow, Applied Physics, Stanford Univ.
+  Ph.D, MS, BS in Physics, KAIST
+  `,
+    bio: ``,
+  },
+  {
+    id: 35,
+    name: `김준휘`,
+    about: `
+  …
+  `,
+    bio: ``,
+  },
+  {
+    id: 36,
+    name: `박정환`,
+    about: `
+  팀장, APEC 기획팀, 보건복지부
+  Ph.D. in Dept. of Family Med. and Public Health, UCSD
+  BS in Biosystem, KAIST
+  `,
+    bio: ``,
+  },
+  {
+    id: 37,
+    name: `백형렬`,
+    about: `
+  Associate Professor, Dept. of Math. Science, KAIST
+  Chief Professor, Graduate School of AI for Math, KAIST
+  Ph.D. and MS in Mathematics, Cornell Univ.
+  BS in Math, KAIST
+  `,
+    bio: ``,
+  },
+  {
+    id: 38,
+    name: `박보현`,
+    about: `
+  서기관, 고용노동부
+  BS in EECS, KAIST
+  `,
+    bio: ``,
   }
 ];

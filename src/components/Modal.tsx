@@ -50,19 +50,25 @@ export default function Modal({ speakerId, closeModal }: Props) {
           </svg>
         </div>
         <div className="flex flex-row gap-4 sm:flex-col">
-          <div className="min-w-[280px]">
-            <h4 className="text-xl font-bold">
-              {speakerInfo.at(speakerId - 1)?.name}
-            </h4>
-            <p className="whitespace-pre-wrap font-proxima font-medium mt-4 text-xs leading-tight text-gray-700">
-              {speakerInfo.at(speakerId - 1)?.about}
-            </p>
-          </div>
-          <div className="max-w-[480px]">
-            <p className="whitespace-pre-wrap leading-6 text-sm">
-              {speakerInfo.at(speakerId - 1)?.bio}
-            </p>
-          </div>
+              {(() => {
+              const speaker = speakerInfo.find((speaker) => speaker.id === speakerId);
+              if (!speaker) return null;
+              return (
+                <>
+                <div className="min-w-[280px]">
+                  <h4 className="text-xl font-bold">{speaker.name}</h4>
+                  <p className="whitespace-pre-wrap font-proxima font-medium mt-4 text-xs leading-tight text-gray-700">
+                  {speaker.about}
+                  </p>
+                </div>
+                <div className="max-w-[480px]">
+                  <p className="whitespace-pre-wrap leading-6 text-sm">
+                  {speaker.bio}
+                  </p>
+                </div>
+                </>
+              );
+              })()}
         </div>
       </div>
     </div>

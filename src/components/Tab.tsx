@@ -29,7 +29,11 @@ export default function Tab({ changeTab, json }: Props) {
           >
             <div className="tab-content font-bold text-lg">
               <p>{item.time}</p>
-              <p className="mt-1 hidden lg:block">{item.title}</p>
+              {item.title.split('\n').map((line: string, i: number) => (
+                <p key={i} className="mt-1 hidden lg:block">
+                  {line}
+                </p>
+              ))}
             </div>
           </div>
         );
