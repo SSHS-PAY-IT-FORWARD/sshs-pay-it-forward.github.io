@@ -50,7 +50,7 @@ export default function App() {
             <h2 className="leading-tight">
               2025 OCTOBER 18 (SAT)
               <br />
-              10:00 - 19:00{" "}
+              10:00 - 18:30{" "}
               <span className="font-pretendard">@서울과학고등학교</span>
             </h2>
           </div>
