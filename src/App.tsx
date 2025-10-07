@@ -26,7 +26,7 @@ export default function App() {
     <div id="wrap" className="font-pretendard">
       <Navigator />
       <a
-        href="https://docs.google.com/presentation/d/1LGjZlYGCVTd0bqdYB4TbUzEkby6xC6G7r4IVreS1LCI/edit?pli=1#slide=id.g27b0136356f_0_54"
+        href="https://docs.google.com/presentation/d/153wVokhapvkGHvMuANq3dmWXTUv9mo_j42IUj0bQDfo/edit?usp=sharing"
         target="_blank"
       >
         <FixedButton>컨퍼런스 브로셔 보러 가기 →</FixedButton>
